@@ -39,4 +39,8 @@ var notFruit = fruitCollection.splice(1,3);
 
 gemBox.splice(5, 8, 'Sapphire');
 
-upToTen.unshift
+upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+
+brownOnly.splice(1, 5 , "brown", "brown", "brown");
+
+var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
